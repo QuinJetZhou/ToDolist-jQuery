@@ -1,8 +1,8 @@
 /*
 * @Author: ZHOU
 * @Date:   2018-11-26 15:29:58
-* @Last Modified by:   ZHOU
-* @Last Modified time: 2018-11-26 21:39:44
+* @Last Modified by:   QuinJetZhou
+* @Last Modified time: 2018-11-30 15:37:56
 */
 *{
     /*background:rgba(0,0,0,.1);*/
@@ -25,6 +25,7 @@ body{
     max-width: 900px;
     margin:0 auto;
     position: relative;
+    padding:0 10px;
 }
 
 h1{
@@ -34,6 +35,11 @@ h1{
     margin:10px 0;
 
 }
+
+.fr{
+    float: right;
+}
+
 input,
 button,
 .task-detail-mask,
@@ -149,4 +155,18 @@ button{
     right: 0;
     left: 0;
     background:rgba(30,30,30,.6);
+}
+
+.task-content{
+    margin-left: 10px;
+}
+
+.action{
+    color: #999;
+    font-size: 90%;
+}
+
+.action:hover
+{
+    color: #333;
 }
