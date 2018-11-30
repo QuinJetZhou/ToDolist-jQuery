@@ -2,7 +2,7 @@
 * @Author: ZHOU
 * @Date:   2018-11-26 15:29:58
 * @Last Modified by:   QuinJetZhou
-* @Last Modified time: 2018-11-30 16:05:18
+* @Last Modified time: 2018-11-30 19:52:32
 */
 
 * {
@@ -128,8 +128,8 @@ button {
 
 .task-detail-mask,
 .task-detail {
-    position: absolute;
     display: none;
+    position: absolute;
 }
 
 .task-detail {
