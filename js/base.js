@@ -2,7 +2,7 @@
  * @Author: ZHOU
  * @Date:   2018-11-26 15:12:43
  * @Last Modified by:   QuinJetZhou
- * @Last Modified time: 2018-11-30 20:48:47
+ * @Last Modified time: 2018-11-30 20:51:50
  */
 ;
 (function() {
@@ -59,7 +59,10 @@
         $task_detail.fadeOut() ;
         $task_detail_mask.fadeOut() ;
     }
-    //渲染指定task的详细信息
+    
+    //////////////////
+    //渲染指定task的详细信息 //
+    //////////////////
     function render_task_detail(index){
         if(index === undefined || !task_list[index])
             return;
